@@ -15,3 +15,7 @@ type: React.ButtonHTMLAttributes<HTMLButtonElement>['type']
 ```
 PropsWithChildren<Props>
 ```
+- There is an example of [how to mock axios and use *mockResolvedValue*](https://www.csrhymes.com/2022/03/09/mocking-axios-with-jest-and-typescript.html):
+```
+mockedAxios.post.mockResolvedValue({ data: LoginFormMock });
+```

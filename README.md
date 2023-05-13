@@ -19,3 +19,4 @@ PropsWithChildren<Props>
 ```
 mockedAxios.post.mockResolvedValue({ data: LoginFormMock });
 ```
+- Instructions on [how to setup TypeScript + Jest + React Testing Library](https://medium.com/tinyso/react-hero-typescript-jest-react-testing-library-setup-c2ecce18ec96)
